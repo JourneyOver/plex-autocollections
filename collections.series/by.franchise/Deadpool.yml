@@ -1,0 +1,3 @@
+Deadpool:
+  - ^Deadpool( \d)?$
+  - ^Once Upon a Deadpool$

@@ -1,0 +1,3 @@
+How to Train Your Dragon:
+  - ^How to Train Your Dragon( \d)?$
+  - ^How to Train Your Dragon.+?The Hidden World$

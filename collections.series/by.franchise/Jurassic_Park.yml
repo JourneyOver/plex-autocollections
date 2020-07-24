@@ -1,0 +1,4 @@
+Jurassic Park:
+  - ^Jurassic (Park|World)(.*?( I{2,3}|[2-3]))?$
+  - ^The Lost World.+?Jurassic Park$
+  - ^Jurassic World.+?Fallen Kingdom$

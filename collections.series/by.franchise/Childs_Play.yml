@@ -1,0 +1,3 @@
+Child's Play:
+  - ^Child.?s Play( \d)?$
+  - ^(Bride|Seed|Curse|Cult) of Chucky$

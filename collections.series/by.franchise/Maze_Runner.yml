@@ -1,0 +1,3 @@
+Maze Runner:
+  - ^The Maze Runner$
+  - ^Maze Runner.+?(The Scorch Trials|The Death Cure)$

@@ -1,20 +1,17 @@
 # Plex Auto-Collections
 This is a simple script to automatically create collections by matching the titles of movies in your library with movies in the `collections.yml` file.
 
-This script was originally based off of an inspired by [this script](https://github.com/AustinHasten/PlexHolidays), so thanks to [AustinHasten](https://github.com/AustinHasten) for that!
-
-**DISCLAIMER** although I'm a software developer, I have done very little python (this is my first real program). So please forgive the crudeness of some of my code or methods. PRs welcome!
+This is based off of [this script](https://github.com/alex-phillips/plex-autocollections) with my own little changes and the use of pipenv.
 
 ## Installation
 Simply use pip to install the requirements and run the software with python 3.
 
 ```python
-pip install -r requirements.txt
+pip install pipenv
+pipenv install
 ...
-python main.py
+pipenv run python main.py
 ```
-
-It will ask you for your Plex login and automatically find your servers. If it looks like more than one library may contain movies, it will ask you which one you want to create collections on.
 
 ## Usage
 Since this was designed to run against any arbitrary Plex movie library (and some people may have different naming conventions for movies), I decided that regular expression matching would be best for most cases.
